@@ -13,8 +13,8 @@ def birthday_Cake_Candles(height):
         j+=1    
     print(max, count)
 
-num=int(input("enter the limit: "))
-height=list(map(int,input("enter the list elements: ").split()))[:num] #use spacebar after entering one number
+num=int(input("enter the child's Age: "))
+height=list(map(int,input("enter the candles height: ").split()))[:num] #use spacebar after entering one number
 # print(height)
 birthday_Cake_Candles(height)
 
