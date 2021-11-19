@@ -10,7 +10,7 @@ def nonDivisibleSubset(list_of_elements,k):
             j+=1
         i+=1
     print(c)
-num=int(input("enter the limit: "))
+num=int(input("enter the list limit: "))
 list_of_elements=list(map(int,input("enter the list elements: ").split()))[:num]
 nonDivisibleSubset(list_of_elements,3)
 
